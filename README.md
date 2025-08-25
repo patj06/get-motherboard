@@ -21,11 +21,11 @@ Each ACPI table contains OEM identification fields that reveal the motherboard m
 
 ## Features
 
-- ? **SMBIOS-independent** - Works even when SMBIOS is unavailable
-- ? **Lightweight** - Minimal dependencies, just Windows API
-- ? **Multiple sources** - Queries several ACPI tables for comprehensive info
-- ? **Fast execution** - Direct firmware table access
-- ? **C++14 compatible** - Modern C++ standards
+- **SMBIOS-independent** - Works even when SMBIOS is unavailable
+- **Lightweight** - Minimal dependencies, just Windows API
+- **Multiple sources** - Queries several ACPI tables for comprehensive info
+- **Fast execution** - Direct firmware table access
+- **C++14 compatible** - Modern C++ standards
 
 ## Building
 
@@ -51,11 +51,10 @@ get-motherboard.exe
 
 ### Sample Output
 ```
-XSDT OEMID='MSFT  ' OEMTableID='DESKTOP '
-RSDT OEMID='MSFT  ' OEMTableID='DESKTOP '
-FACP OEMID='MSFT  ' OEMTableID='DESKTOP '
-APIC OEMID='MSFT  ' OEMTableID='DESKTOP '
-SSDT OEMID='MSFT  ' OEMTableID='Cpu0Ist '
+XSDT OEMID='ALASKA' OEMTableID='A M I '
+FACP OEMID='ALASKA' OEMTableID='A M I '
+APIC OEMID='ALASKA' OEMTableID='A M I '
+SSDT OEMID='PmaxDv' OEMTableID='Pmax_Dev'
 ```
 
 ## Understanding the Output
